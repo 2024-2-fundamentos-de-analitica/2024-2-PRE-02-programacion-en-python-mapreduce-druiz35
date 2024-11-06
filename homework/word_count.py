@@ -118,7 +118,7 @@ def create_ouptput_directory(output_directory):
 #
 def save_output(output_directory, sequence):
     """Save Output"""
-    with open(f"{output_directory}/part-80000", "w", encoding="utf-8") as f:
+    with open(f"{output_directory}/part-00000", "w", encoding="utf-8") as f:
         for key, value in sequence:
             f.write(f"{key}\t{value}\n")
 
