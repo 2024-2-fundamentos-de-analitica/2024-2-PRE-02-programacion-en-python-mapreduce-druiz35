@@ -10,6 +10,7 @@ from pprint import pprint
 import string
 
 
+
 #
 # Escriba la función load_input que recive como parámetro un folder y retorna
 # una lista de tuplas donde el primer elemento de cada tupla es el nombre del
@@ -33,8 +34,7 @@ def load_input(input_directory):
         for line in f:
             sequence.append((fileinput.filename(), line))
     return sequence
-
-
+    
 #
 # Escriba la función line_preprocessing que recibe una lista de tuplas de la
 # función anterior y retorna una lista de tuplas (clave, valor). Esta función
