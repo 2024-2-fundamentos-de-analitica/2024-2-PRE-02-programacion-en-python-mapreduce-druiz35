@@ -10,6 +10,7 @@ from pprint import pprint
 import string
 
 
+
 #
 # Escriba la función load_input que recive como parámetro un folder y retorna
 # una lista de tuplas donde el primer elemento de cada tupla es el nombre del
